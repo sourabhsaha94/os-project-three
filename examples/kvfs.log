@@ -1,0 +1,1227 @@
+
+kvfs_init()
+    conn:
+    proto_major = 7
+    proto_minor = 23
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 02448530
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 02447010
+    logfile = 02448040
+    rootdir = /home/sourabh/Documents/os-project-three/KVFS/examples/rootdir
+    umask = 00000
+    kvfs_fullpath:  path = "/"
+INSIDE ELSE    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+INSIDE ELSE    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+INSIDE ELSE    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94000c10
+    lock_owner = 0x0000000000000000
+INSIDE ELSE    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+INSIDE IF    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94000c10
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94000c10
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94000c10
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94000c10
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98000ff0
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98000ff0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98000ff0
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98000ff0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98000ff0
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001080
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001080
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002440
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002440
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002440
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002440
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002440
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001100
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001100
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001100
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001100
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001100
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001080
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001080
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002550
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002550
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002550
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002550
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002550
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001080
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001080
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001080
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001540
+    lock_owner = 0x0000000000000000
+    fh_old = 0x7f0e9c002580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001540
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001540
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001540
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001540
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002990
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002990
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002990
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001490
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001490
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001490
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001490
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001490
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002990
+    lock_owner = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002990
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002990
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c00a9d0
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c00a9d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c00a9d0
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c00a9d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c00a9d0
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001490
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001490
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001490
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001490
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001490
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001520
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001520
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001520
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e94001520
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e94001520
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e9c002580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e9c002580
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f0e98001130
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f0e98001130
+    lock_owner = 0x0000000000000000
+INSIDE ELSE    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20105455
+    f_bavail = 18889097
+    f_files = 6062080
+    f_ffree = 5576807
+    f_favail = 5576807
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20104914
+    f_bavail = 18888556
+    f_files = 6062080
+    f_ffree = 5576665
+    f_favail = 5576665
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20033906
+    f_bavail = 18817548
+    f_files = 6062080
+    f_ffree = 5576479
+    f_favail = 5576479
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20105095
+    f_bavail = 18888737
+    f_files = 6062080
+    f_ffree = 5576416
+    f_favail = 5576416
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20105095
+    f_bavail = 18888737
+    f_files = 6062080
+    f_ffree = 5576415
+    f_favail = 5576415
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20105092
+    f_bavail = 18888734
+    f_files = 6062080
+    f_ffree = 5576415
+    f_favail = 5576415
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+INSIDE IF    lstat returned 0
+    si:
+    st_dev = 2058
+    st_ino = 4593379
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x58476339
+    st_mtime = 0x584762f1
+    st_ctime = 0x584762f1
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 23832015
+    f_bfree = 20105092
+    f_bavail = 18888734
+    f_files = 6062080
+    f_ffree = 5576415
+    f_favail = 5576415
+    f_fsid = 6737131329094206432
+    f_flag = 0x00001000
+    f_namemax = 255
+
+kvfs_destroy(userdata=0x02447010)
